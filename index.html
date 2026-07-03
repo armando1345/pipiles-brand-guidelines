@@ -81,20 +81,46 @@
   <main>
     <section class="home-cards" aria-label="Gu&iacute;as principales">
       <a class="guide-card guide-card--identity" href="#identidad">
-        <span>Identidad</span>
-        <p>Usa los elementos visuales esenciales de Pipiles con consistencia y criterio.</p>
-        <strong>Ver gu&iacute;a <span aria-hidden="true">&rsaquo;</span></strong>
-        <img src="assets/logos/logo-pipiles-cream.svg" alt="">
+        <section class="guide-card__hero">
+          <header class="guide-card__hero-header">
+            <span>01</span>
+          </header>
+          <p class="guide-card__title">Identidad</p>
+        </section>
+        <footer class="guide-card__footer">
+          <div class="guide-card__summary">
+            <p>Logo, color y sistema visual.</p>
+          </div>
+          <span class="guide-card__btn">Ver</span>
+        </footer>
       </a>
       <a class="guide-card guide-card--writing" href="#escritura">
-        <span>Escritura</span>
-        <p>Comunica con una voz joven, clara, local y cercana.</p>
-        <strong>Ver gu&iacute;a <span aria-hidden="true">&rsaquo;</span></strong>
+        <section class="guide-card__hero">
+          <header class="guide-card__hero-header">
+            <span>02</span>
+          </header>
+          <p class="guide-card__title">Escritura</p>
+        </section>
+        <footer class="guide-card__footer">
+          <div class="guide-card__summary">
+            <p>Voz joven, clara y salvadore&ntilde;a.</p>
+          </div>
+          <span class="guide-card__btn">Ver</span>
+        </footer>
       </a>
       <a class="guide-card guide-card--marketing" href="#marketing">
-        <span>Marketing</span>
-        <p>Construye piezas para redes, empaque, venta y presentaci&oacute;n de producto.</p>
-        <strong>Ver gu&iacute;a <span aria-hidden="true">&rsaquo;</span></strong>
+        <section class="guide-card__hero">
+          <header class="guide-card__hero-header">
+            <span>03</span>
+          </header>
+          <p class="guide-card__title">Marketing</p>
+        </section>
+        <footer class="guide-card__footer">
+          <div class="guide-card__summary">
+            <p>Redes, empaque y venta.</p>
+          </div>
+          <span class="guide-card__btn">Ver</span>
+        </footer>
       </a>
     </section>
 
@@ -300,18 +326,47 @@
         <section class="content-section two-column" id="color">
           <div class="visual-column">
             <div class="swatch-grid">
-              <article class="swatch swatch--ink"><span>Morado Pipiles</span><strong>#310448</strong></article>
-              <article class="swatch" style="background:#e1b4f4;color:#310448"><span>Lavanda fresca</span><strong>#E1B4F4</strong></article>
-              <article class="swatch swatch--purple"><span>Coral jamaica</span><strong>#EF6461</strong></article>
-              <article class="swatch swatch--white"><span>Crema natural</span><strong>#FFF9EC</strong></article>
-              <article class="swatch swatch--stone"><span>Gris semilla</span><strong>#6D676E</strong></article>
-              <article class="swatch" style="background:linear-gradient(135deg,#310448 0 40%,#e1b4f4 40% 70%,#ef6461 70%);"><span>Combinaci&oacute;n</span><strong>Paleta Pipiles</strong></article>
+              <article class="swatch swatch--ink">
+                <span>Morado Pipiles</span>
+                <strong>#310448</strong>
+                <dl><div><dt>CMYK</dt><dd>80 100 30 45</dd></div><div><dt>Pantone</dt><dd>2627 C aprox.</dd></div></dl>
+              </article>
+              <article class="swatch swatch--lavender">
+                <span>Lavanda fresca</span>
+                <strong>#E1B4F4</strong>
+                <dl><div><dt>CMYK</dt><dd>10 28 0 0</dd></div><div><dt>Pantone</dt><dd>2562 C aprox.</dd></div></dl>
+              </article>
+              <article class="swatch swatch--purple">
+                <span>Coral jamaica</span>
+                <strong>#EF6461</strong>
+                <dl><div><dt>CMYK</dt><dd>0 70 55 0</dd></div><div><dt>Pantone</dt><dd>178 C aprox.</dd></div></dl>
+              </article>
+              <article class="swatch swatch--cream">
+                <span>Crema natural</span>
+                <strong>#FFF9EC</strong>
+                <dl><div><dt>CMYK</dt><dd>0 2 8 0</dd></div><div><dt>Pantone</dt><dd>7499 C aprox.</dd></div></dl>
+              </article>
+              <article class="swatch swatch--stone">
+                <span>Gris semilla</span>
+                <strong>#6D676E</strong>
+                <dl><div><dt>CMYK</dt><dd>45 40 35 20</dd></div><div><dt>Pantone</dt><dd>Cool Gray 10 C aprox.</dd></div></dl>
+              </article>
+              <article class="swatch swatch--white">
+                <span>Blanco</span>
+                <strong>#FFFFFF</strong>
+                <dl><div><dt>CMYK</dt><dd>0 0 0 0</dd></div><div><dt>Pantone</dt><dd>Papel blanco</dd></div></dl>
+              </article>
+              <article class="swatch swatch--black">
+                <span>Negro</span>
+                <strong>#000000</strong>
+                <dl><div><dt>CMYK</dt><dd>0 0 0 100</dd></div><div><dt>Pantone</dt><dd>Black C</dd></div></dl>
+              </article>
             </div>
           </div>
           <article class="copy-column">
             <h3>Color</h3>
-            <p>La paleta parte de morado profundo, lavanda, coral, crema y gris. El morado funciona como base de identidad; el coral debe usarse para acentos, llamados de atenci&oacute;n y detalles con energ&iacute;a.</p>
-            <p>Evita combinaciones demasiado infantiles o saturadas. Pipiles puede ser juguetona, pero siempre debe verse limpia, local y apetecible.</p>
+            <p>La paleta parte de morado profundo, lavanda, coral, crema, gris, blanco y negro. El morado funciona como base de identidad; el coral debe usarse para acentos, llamados de atenci&oacute;n y detalles con energ&iacute;a.</p>
+            <p>Los CMYK y Pantone son aproximaciones optimizadas para impresi&oacute;n. Antes de producir empaques o material final, conviene hacer una prueba f&iacute;sica con el proveedor.</p>
           </article>
         </section>
 
@@ -384,20 +439,30 @@
         <section class="guide-intro content-section" id="escritura">
           <p class="kicker">Escritura</p>
           <h2>Narrativa de marca</h2>
-          <p>Pipiles no debe hablar como una bebida industrial ni como una marca tradicional pesada. Su voz combina frescura, sabor local, bienestar y orgullo salvadore&ntilde;o.</p>
+          <p>Pipiles no debe hablar como una bebida industrial ni como una marca tradicional pesada. Su voz combina frescura, sabor local, bienestar y orgullo salvadore&ntilde;o desde un lugar juvenil y aut&eacute;ntico.</p>
         </section>
 
         <section class="content-section two-column" id="voz">
-          <div class="visual-column voice-grid">
-            <article><strong>Joven</strong><p>Energ&iacute;a clara, sin sonar inmadura.</p></article>
-            <article><strong>Aut&eacute;ntica</strong><p>Local, honesta y conectada con el producto.</p></article>
-            <article><strong>Refrescante</strong><p>Ligera, directa y f&aacute;cil de entender.</p></article>
-            <article><strong>Cercana</strong><p>Humana, cotidiana y salvadore&ntilde;a.</p></article>
+          <div class="visual-column">
+            <div class="positioning-map" aria-label="Plano cartesiano de posicionamiento de Pipiles">
+              <span class="map-label map-label--top">Joven</span>
+              <span class="map-label map-label--bottom">Cl&aacute;sico</span>
+              <span class="map-label map-label--left">Aut&eacute;ntico</span>
+              <span class="map-label map-label--right">Industrial</span>
+              <span class="map-axis map-axis--x" aria-hidden="true"></span>
+              <span class="map-axis map-axis--y" aria-hidden="true"></span>
+              <div class="quadrant quadrant--industrial"><span>Bebida de f&aacute;brica</span></div>
+              <div class="quadrant quadrant--classic"><span>Tradici&oacute;n sin renovaci&oacute;n</span></div>
+              <div class="quadrant quadrant--classic-industrial"><span>Bebida tradicional industrializada</span></div>
+              <div class="brand-pin">
+                <img src="assets/logos/logo-pipiles-dark.svg" alt="Pipiles">
+              </div>
+            </div>
           </div>
           <article class="copy-column">
             <h3>Voz</h3>
-            <p>La voz de Pipiles debe transmitir que una bebida tradicional puede sentirse actual. Habla con claridad, buen humor medido y confianza.</p>
-            <p>Evita sonar demasiado formal, infantil, artificial o como una gaseosa gen&eacute;rica.</p>
+            <p>La voz de Pipiles debe ubicarse en el cruce entre lo juvenil y lo aut&eacute;ntico: habla como una marca actual, pero con ra&iacute;z salvadore&ntilde;a real.</p>
+            <p>Debe sonar fresca, simple y confiable. Evita sonar demasiado formal, infantil, artificial o como una bebida industrial gen&eacute;rica.</p>
           </article>
         </section>
 
@@ -442,21 +507,12 @@
           </article>
         </section>
 
-        <nav class="next-prev" aria-label="Navegaci&oacute;n de secciones">
-          <a href="#inicio"><span aria-hidden="true">&lsaquo;</span> Inicio</a>
-          <a href="#identidad">Identidad <span aria-hidden="true">&rsaquo;</span></a>
-        </nav>
       </div>
     </div>
   </main>
 
   <footer class="site-footer">
     <img src="assets/logos/logo-pipiles-dark.svg" alt="Pipiles">
-    <nav aria-label="Footer">
-      <a href="#identidad">Identidad</a>
-      <a href="#escritura">Escritura</a>
-      <a href="#marketing">Marketing</a>
-    </nav>
     <p>Manual de marca de Pipiles</p>
   </footer>
 
